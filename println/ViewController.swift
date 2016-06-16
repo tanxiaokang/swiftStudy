@@ -55,6 +55,36 @@ class ViewController: UIViewController {
         print(largest)
         
         
+        //使用 while 来重复运行一段代码直到不满足条件。循环条件可以在开头也可以在结尾。
+        
+        var n = 2
+        while n < 100 {
+            n = n * 2
+        }
+        print(n)
+        
+        var m = 2
+        
+        repeat {
+            m = m * 2
+        }while m < 100
+        
+        print(m)
+        
+        
+        
+        
+        //3.循环的两种方式 1:... 2.传统写法
+            //1:
+        var firstForLoop = 0
+        for i in 0...10 {
+            firstForLoop += i
+            print(firstForLoop)
+        }
+        print(firstForLoop)
+            //2:略
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
